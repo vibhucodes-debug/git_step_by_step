@@ -8,4 +8,19 @@
 > `git status`
   - The `git status` command displays the state of the working directory and the staging area.
 
+### Staging 
+
+  *The staging environment (or staging area) is like a waiting room for your changes. We use it to tell git exactly which files to include in the next commit*
+
+> `git add <filename>`
+  - Add a file in the staging area.
+    
+> `git add --all` OR `git add -A`
+  - Add all files to staging area.
+>  `git restore --staged <filename>`
+  - Remove a file from the staging area.
+
+    
+  
+  
 
