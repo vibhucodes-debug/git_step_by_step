@@ -1,4 +1,4 @@
-#Initialising a 
+# Basic steps in initialising a Repository
 
 ### Initialising
 
@@ -26,8 +26,15 @@
 
   * A  `commit` is like a save point in our project. It records a snapshot of our files at a certain time, with a message describing what changed. We can always go back to a previous commit if we need.*
 
+
   > `git commit -m "messaging"`
-    - Save 
+    - Commit staged changes with a message.
+  > `git commit -m -a "messaging"`
+    - Commit all tracked files and, skipping staging.
+  > `git log`
+    - Display the commit history
+    *Note: This commits all the modified, and deleted items, but not **the new tracked files**.
+
 
     
   
