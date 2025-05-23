@@ -29,8 +29,10 @@
 
   > `git commit -m "messaging"`
     - Commit staged changes with a message.
+
   > `git commit -m -a "messaging"`
     - Commit all tracked files and, skipping staging.
+
   > `git log`
     - Display the commit history
     *Note: This commits all the modified, and deleted items, but not **the new tracked files**.
