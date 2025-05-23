@@ -61,7 +61,7 @@
 
 **Steps invovled in merging 'new-branch' to the 'main' branch:**
 
-- `git checout main`
+- `git checkout main`
 - `git merge new-branch`
 
 
