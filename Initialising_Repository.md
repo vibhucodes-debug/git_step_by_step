@@ -1,5 +1,16 @@
 # Basic steps in initialising a Repository
 
+
+### Setting Up
+
+> git config --global user.name "Vaibhav Sharma"
+
+> git config --global user.email "vaibahvsharma2124@gmail.com"
+
+> git config --global core.editor "code --wait"
+  - Set the default code editor as VS Code.
+
+
 ### Initialising
 
   > `git init`
@@ -38,7 +49,22 @@
     *Note: This commits all the modified, and deleted items, but not **the new tracked files**.
 
 
-    
+### Branching 
+
+> `git branch new-branch`
+  - To create a new branch.
+
+> `git checkout new-branch`
+  - To shift move on another branch.
+
+*Any commits you make on this branch will be separate from the main branch and won’t affect it. This allows you to work on new features or bug fixes without disrupting the stability of the main branch.*
+
+**Steps invovled in merging 'new-branch' to the 'main' branch:**
+
+- `git checout main`
+- `git merge new-branch`
+
+  
   
   
 
