@@ -64,7 +64,19 @@
 - `git checout main`
 - `git merge new-branch`
 
-  
-  
+
+# Working with Remote Repositories on GitHub
+
+*While Git allows you to work with local repositories on your machine, collaborating and sharing code often requires a remote repository hosted on a platform like GitHub. To work with a remote repository, you first need to create a new empty repository on GitHub.com.*
+
+> `git remote add origin https://github.com/your-account/repo-name.git`
+  - Connect local repository to the remote repository using the above command.
+
+> `git push -u origin main`
+  - Push your code to the remote repo
+  - This command pushes the main branch to the origin remote repository. The -u flag sets the main branch as the default remote branch.
+
+> `git pull origin main`
+
   
 
